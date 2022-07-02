@@ -1,7 +1,6 @@
 .contact-container {
   min-height: calc(100vh - 80px);
   width: 100%;
-  /* background: var(--background); */
   background-color: var(--background);
   display: flex;
   align-items: center;
