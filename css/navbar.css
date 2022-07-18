@@ -2,7 +2,7 @@
 .navbar {
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+
   background-color: var(--text-background);
   height: 80px;
   color: var(--primary-color);
@@ -49,6 +49,7 @@ input[type="checkbox"] {
     left: 0;
     text-align: center;
     padding: 16px 0;
+    z-index: 200;
   }
   .menu li:hover {
     display: inline-block;

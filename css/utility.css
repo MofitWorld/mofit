@@ -12,7 +12,7 @@
   --heading: clamp(2rem, 3vw, 4rem);
   --line-height: 1.5;
   --hover-background: #4c9e9e;
-  --padding: max(2rem, 5vw);
+  --padding: clamp(1.2rem, 3vw, 2rem);
 }
 body {
   min-height: 100vh;
@@ -32,12 +32,36 @@ body {
 li {
   list-style: none;
 }
+.justify-center{
+  justify-content:center
+}
 
 a {
   text-decoration: none;
   color: inherit;
 }
-
 .p-2 {
   padding-inline: var(--padding);
+}
+.w-full{
+  width:100%;
+}
+.py-2 {
+  padding-inline: var(--padding);
+}
+
+.px-2 {
+  padding-block: var(--padding);
+}
+
+.py-1 {
+  padding-inline: calc(var(--padding) / 2);
+}
+
+.px-1 {
+  padding-block: calc(var(--padding) / 2);
+}
+
+.text-center {
+  text-align: center;
 }
